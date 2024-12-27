@@ -71,7 +71,17 @@ main .features p{
 .alert-warning{
     float: left;
     clear: both;
-    max-width: 400px;
+    width: 50%;
     margin: 20px 34%;
     text-align: left;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 20px;
+}
+
+form input{
+    margin-bottom: 20px;
 }

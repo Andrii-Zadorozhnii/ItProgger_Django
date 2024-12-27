@@ -10,18 +10,18 @@
         {% endfilter%}
         <button class="btn btn-warning">To "About" page</button>
 
-        {% for el in values%}
-            {% if el == 'Hello' %}
-                {% filter upper %}
-                    <p>{{ el }}</p>
-                {% endfilter%}
-            <p>{{ el|lower }}</p>
-            {% endif %}
-        {% endfor %}
+<!--        {% for el in values%}-->
+<!--            {% if el == 'Hello' %}-->
+<!--                {% filter upper %}-->
+<!--                    <p>{{ el }}</p>-->
+<!--                {% endfilter%}-->
+<!--            <p>{{ el|lower }}</p>-->
+<!--            {% endif %}-->
+<!--        {% endfor %}-->
 
-        {% for el in obj%}
-            <p>{{ el }}</p>
-        {% endfor %}
+<!--        {% for el in obj%}-->
+<!--            <p>{{ el }}</p>-->
+<!--        {% endfor %}-->
 
     </div>
 {% endblock %}
