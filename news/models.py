@@ -9,6 +9,8 @@ class Articles(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolut_url(self):
+        return f'/news/{self.id}'
 
     class Meta:
         verbose_name = 'News'
